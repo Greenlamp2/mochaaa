@@ -1,0 +1,25 @@
+{
+  "name": "mochaaa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0",
+    "chai": "^5.1.1",
+    "chai-spies": "^1.1.0",
+    "mocha": "^7.0.1"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  }
+}
